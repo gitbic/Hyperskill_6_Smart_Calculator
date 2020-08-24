@@ -9,7 +9,7 @@ Calculators are a very helpful tool that we all use on a regular basis.
 - parentheses **()**
 - power operator **^**
 
-Calculator also support variable.
+Calculator also support variable and operations with biginteger.
 
 The name of a variable (identifier) can contain only Latin letters. The case is also important; for example, **n** is not the same as **N**. The value can be an integer number or a value of another variable.
 
@@ -48,3 +48,7 @@ a*2+b*3+c*(2+3)
 3 + 8 * ((4 + 3) * 2 + 1) - 6 / (2 + 1)
 
 > 121
+
+112234567890 + 112234567890 * (10000000999 - 999)
+
+> 1122345679012234567890
