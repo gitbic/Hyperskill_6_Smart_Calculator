@@ -144,7 +144,14 @@ class Utility {
     void performCommand(String command) {
         switch (command) {
             case "/help":
-                System.out.println("This is calculator!");
+                System.out.println("Supported operations:\n" +
+                        "- addition +\n" +
+                        "- subtraction -\n" +
+                        "- multiplication \\*\n" +
+                        "- integer division /\n" +
+                        "- parentheses ()\n" +
+                        "- power operator ^\n" +
+                        "- variables");
                 break;
             case "/exit":
                 System.out.println("Bye!");
